@@ -18,10 +18,17 @@ const Home = () => {
                 <div id='introContainer'>
                     <div id='imageContainer'><img src={profile} alt="profile" /></div>
                     <div id='introTextContainer'>
-                        <h1>¡Hi, <br />
-                            I´m Camila Marcos Galbán <br />
-                            a Full-Stack Developer!
-                        </h1>
+                        <h1 class="static">¡Hi, <br />
+                            I´m Camila Marcos Galbán</h1>
+                        <div id="wrapper">
+                            <h1>a</h1>
+                            <ul class="dynamic">
+                                <li><span className='separeted'>Developer!</span></li>
+                                <li><span className='separeted'>Desginer!</span></li>
+                                <li><span>n Artist!</span></li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
             </main>
