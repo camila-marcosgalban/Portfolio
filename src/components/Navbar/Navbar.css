@@ -1,0 +1,37 @@
+nav img {
+    width: 32px;
+    height: 32px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+nav ul div {
+    display: flex;
+}
+
+nav ul div li {
+    border-radius: 10px;
+    background: linear-gradient(225deg, #ffffff, #e6bfef);
+    box-shadow: -5px 5px 10px #c38ccf,
+        5px -5px 10px #ffffff;
+    width: 100px;
+    margin-right: 1rem;
+    padding: 0.5rem;
+}
+
+nav ul div li:hover {
+    background: linear-gradient(225deg, #e6bfef, #ffffff);
+    background: #ffffff;
+    box-shadow: inset -5px 5px 10px #c38ccf,
+        inset 5px -5px 10px #ffffff;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+#about {
+    text-align: left;
+    line-height: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#about div {
+    width: 80vw;
+    border-radius: 42px;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow: -16px 16px 13px #ababab,
+        16px -16px 13px #ffffff;
+    padding: 6rem 3rem;
+    font-size: larger;
+}

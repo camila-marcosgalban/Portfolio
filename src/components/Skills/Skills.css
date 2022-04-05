@@ -1,0 +1,38 @@
+#skills {
+    display: flex;
+    justify-content: center;
+}
+
+#skills div {
+    line-height: 1.5rem;
+    width: 80vw;
+    border-radius: 42px;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow: -16px 16px 13px #ababab,
+        16px -16px 13px #ffffff;
+    padding: 3rem;
+    text-align: left;
+}
+
+#skills ul {
+    list-style: none;
+    display: flex;
+    padding-left: 2rem;
+}
+
+#skills ul li {
+    width: 100px;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #e6bfef, #ffffff);
+    box-shadow: -5px 5px 10px #c38ccf,
+        5px -5px 10px #ffffff;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#skills ul li:hover {
+    background: linear-gradient(225deg, #e6bfef, #ffffff);
+    box-shadow: inset -5px 5px 10px #c38ccf,
+        inset 5px -5px 10px #ffffff;
+}

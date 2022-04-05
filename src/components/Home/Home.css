@@ -1,0 +1,48 @@
+* {
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main #introContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    border-radius: 42px;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow: -16px 16px 13px #ababab,
+        16px -16px 13px #ffffff;
+    margin: 2rem;
+    padding: 2rem 3rem;
+
+}
+
+#imageContainer {
+    width: 400px;
+    height: 400px;
+    padding: 0.5rem;
+}
+
+#imageContainer img {
+    width: 100%;
+    height: auto;
+}
+
+#imageContainer {
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: -31px 31px 61px #d1d1d1,
+        31px -31px 61px #ffffff;
+    margin: 3rem
+}
+
+#introTextContainer {
+    text-align: left;
+    line-height: 4rem;
+    margin: 3rem
+}

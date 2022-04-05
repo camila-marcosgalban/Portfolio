@@ -1,0 +1,52 @@
+#contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    height: 90vh;
+}
+
+#contact #contactInfo {
+    line-height: 1.5rem;
+    width: 80vw;
+    border-radius: 42px;
+    background: linear-gradient(225deg, #e6e6e6, #ffffff);
+    box-shadow: -16px 16px 13px #ababab,
+        16px -16px 13px #ffffff;
+    padding: 3rem;
+    text-align: left;
+}
+
+#contact #contactInfo button {
+    width: 200px;
+    height: 3rem;
+    border-radius: 10px;
+    background: linear-gradient(225deg, #e6bfef, #ffffff);
+    box-shadow: -5px 5px 10px #c38ccf,
+        5px -5px 10px #ffffff;
+    margin-right: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#contact #contactInfo button:hover {
+    background: linear-gradient(225deg, #e6bfef, #ffffff);
+    box-shadow: inset -5px 5px 10px #c38ccf,
+        inset 5px -5px 10px #ffffff;
+}
+
+#contact #contactInfo p {
+    width: 60%;
+    line-height: 3rem;
+    font-size: large;
+}
+
+#contact #contactInfo a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact #contactInfo a img {
+    width: 16px;
+    height: 16px;
+}
