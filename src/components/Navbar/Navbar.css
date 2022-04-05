@@ -1,3 +1,10 @@
+nav {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+}
+
 nav img {
     width: 32px;
     height: 32px;
