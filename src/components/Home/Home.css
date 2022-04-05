@@ -47,6 +47,8 @@ main #introContainer {
     text-align: left;
     line-height: 4rem;
     margin: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 #wrapper {
