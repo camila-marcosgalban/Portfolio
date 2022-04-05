@@ -24,7 +24,7 @@ const Home = () => {
                             <h1>a</h1>
                             <ul class="dynamic">
                                 <li><span className='separeted'>Developer!</span></li>
-                                <li><span className='separeted'>Desginer!</span></li>
+                                <li><span className='separeted'>Designer!</span></li>
                                 <li><span>n Artist!</span></li>
                             </ul>
                         </div>

@@ -45,10 +45,7 @@ const Portfolio = () => {
                         </a>
                         <a href="https://github.com/camila-marcosgalban/deploy_client" target="_blank">
                             <figure>
-                                <video width="320" height="240" controls>
-                                    <source src={mangaka} type="video/mp4" />
-                                    Your browser does not support the video.
-                                </video>
+                                <iframe width="320" height="240" src="https://www.youtube.com/embed/e8a20rLTTBs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <figcaption>Mangaka</figcaption>
                             </figure>
                         </a>
