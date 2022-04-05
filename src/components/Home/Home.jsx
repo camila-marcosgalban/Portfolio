@@ -19,7 +19,7 @@ const Home = () => {
                     <div id='imageContainer'><img src={profile} alt="profile" /></div>
                     <div id='introTextContainer'>
                         <h1 class="static">¡Hi, <br />
-                            I´m Camila Marcos Galbán</h1>
+                            I´m Camila Marcos Galbán,</h1>
                         <div id="wrapper">
                             <h1>a</h1>
                             <ul class="dynamic">
